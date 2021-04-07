@@ -1,5 +1,3 @@
-a = input()
-s = a.find("h")
-k = a.rfind("h")
-
-print(a[:s] + a[k+1:])
+s = input()
+s = s[:s.find('h')] + s[s.rfind('h') + 1:]
+print(s)
